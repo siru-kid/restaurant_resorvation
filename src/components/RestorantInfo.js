@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./RestorantInfo.css";
 import { Navbar, Nav, Button } from "react-bootstrap";
+import logo from "../components/images/logo/lblack.png";
 import Hero from "./hero";
 
 const RestorantInfo = () => {
@@ -26,10 +27,17 @@ const RestorantInfo = () => {
     <div>
       <header>
         <Navbar expand="lg" variant={isNavBlack ? "light" : "dark"} fixed="top">
-          <Navbar.Brand href="index.html">Digital</Navbar.Brand>
+          <Navbar.Brand href="index.html" className="ml-3">
+            <img
+              src={logo}
+              alt="Logo"
+              height="70"
+              className="d-inline-block align-top"
+            />
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="ftco-nav" />
           <Navbar.Collapse id="ftco-nav">
-            <Nav className="ml-auto">
+            <Nav className="mr-5">
               <Nav.Link href="#">Home</Nav.Link>
               <Nav.Link href="#">About</Nav.Link>
               <Nav.Link href="#">Work</Nav.Link>
