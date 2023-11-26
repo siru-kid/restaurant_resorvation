@@ -2,7 +2,7 @@
 
 header {
   background: transparent; /* Set the background to transparent */
-  padding: 20px 0; /* Add padding to the top */
+ ; /* Add padding to the top */
   font-family: 'Dancing Script', cursive;
   font-size: 20px;
 
@@ -20,16 +20,13 @@ header {
   padding-left: 10px;
 }
 
-.navbar-toggler-icon {
-  background-color: #333; /* Set the color of the toggler icon */
-}
 
 .navbar-nav {
   margin-left: auto; /* Align the links to the right */
 }
 
 .nav-link {
-  color: #333; /* Set the color of the links */
+  color: #e74c3c; /* Set the color of the links */
   margin-right: 20px; /* Add some space between the links */
   font-weight: bold; /* Set font weight */
 }
@@ -38,7 +35,7 @@ header {
 .navbar-light .navbar-brand,
 .navbar-light .navbar-toggler-icon,
 .navbar-light .nav-link {
-  color: #333; /* Set the color for light mode */
+  color: #e74c3c;; /* Set the color for light mode */
 }
 
 /* Add styles for when the navbar is in dark mode */

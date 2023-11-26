@@ -1,11 +1,13 @@
-import RegistartionForm from "./components/RegistartionForm";
-import RestorantInfo from "./components/RestorantInfo";
+import React from "react";
+import "./App.css";
+import Book from "./components/frontend/ReservationForm/book";
+import RestorantInfo from "./components/frontend/RestorantInfo";
 
 function App() {
   return (
     <div className="App">
       <RestorantInfo />
-      <RegistartionForm />
+      <Book />
     </div>
   );
 }

@@ -105,7 +105,7 @@ function Hero() {
 
   return (
     <div className="slides">
-      <button className="btn_switch" onClick={() => dispatch({ type: "PREV" })}>
+      <button className="btn_switch" onClick={() => dispatch({ type: "NEXT" })}>
         ‹
       </button>
 
@@ -113,7 +113,7 @@ function Hero() {
         let offset = slides.length + (state.slideIndex - i);
         return <Slide slide={slide} offset={offset} key={i} />;
       })}
-      <button className="btn_switch" onClick={() => dispatch({ type: "NEXT" })}>
+      <button className="btn_switch" onClick={() => dispatch({ type: "PREV" })}>
         ›
       </button>
     </div>

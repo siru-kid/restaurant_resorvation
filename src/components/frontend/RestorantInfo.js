@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./RestorantInfo.css";
 import { Navbar, Nav, Button } from "react-bootstrap";
-import logo from "../components/images/logo/lblack.png";
+import logo from "../frontend/images/logo/lblack.png";
 import Hero from "./hero";
 
 const RestorantInfo = () => {
